@@ -1,0 +1,194 @@
+/**
+ * @license
+ * MyFonts Webfont Build ID 2866653, 2014-08-20T21:44:43-0400
+ * 
+ * The fonts listed in this notice are subject to the End User License
+ * Agreement(s) entered into by the website owner. All other parties are 
+ * explicitly restricted from using the Licensed Webfonts(s).
+ * 
+ * You may obtain a valid license at the URLs below.
+ * 
+ * Webfont: Avenir Next Pro by Linotype
+ * URL: http://www.myfonts.com/fonts/linotype/avenir-next-pro/pro-regular/
+ * 
+ * Webfont: Avenir Next Pro Italic by Linotype
+ * URL: http://www.myfonts.com/fonts/linotype/avenir-next-pro/pro-italic/
+ * 
+ * 
+ * License: http://www.myfonts.com/viewlicense?type=web&buildid=2866653
+ * Licensed pageviews: 250,000
+ * Webfonts copyright: Copyright &#x00A9; 2004 - 2012 Linotype GmbH, www.linotype.com. All rights reserved. This font software may not be reproduced, modified, disclosed or transferred without the express written approval of Linotype GmbH. Avenir Next is a trademark of Linotype
+ * 
+ * © 2014 MyFonts Inc
+*/
+
+@import url("//hello.myfonts.net/count/2bbddd");
+
+  
+@font-face {font-family: 'AvenirNextLTPro-Regular';src: url('/webfonts/2BBDDD_0_0.eot');src: url('/webfonts/2BBDDD_0_0.eot?#iefix') format('embedded-opentype'),url('/webfonts/2BBDDD_0_0.woff') format('woff'),url('/webfonts/2BBDDD_0_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'AvenirNextLTPro-It';src: url('/webfonts/2BBDDD_1_0.eot');src: url('/webfonts/2BBDDD_1_0.eot?#iefix') format('embedded-opentype'),url('/webfonts/2BBDDD_1_0.woff') format('woff'),url('/webfonts/2BBDDD_1_0.ttf') format('truetype');}
+
+body, h1, h2, h3, h4, h5, h6, a.button {
+	color: rgb(255, 255, 255);
+}
+
+a {
+	color: rgb(185, 220, 234);
+}
+
+a:hover {
+	color: rgb(185, 220, 234);
+	text-decoration: underline;
+}
+
+a.button:hover {
+	text-decoration: none;
+}
+
+body, .button {
+	font-family: 'AvenirNextLTPro-Regular', "Avenir Next", sans-serif;
+}
+
+h3, h4, h5, h6 {
+	font-weight: normal;
+	font-family: 'AvenirNextLTPro-Regular', "Avenir Next", sans-serif;
+	
+}
+
+h1, h2, section .title h3 {
+	font-style: italic;
+	font-family: 'AvenirNextLTPro-It', "Avenir Next", sans-serif;
+}
+
+h1 {
+	margin-top: 20px;
+}
+
+h1 img {
+	margin-left: 21px;
+}
+
+h2 {
+	font-size: 56pt;
+	text-transform: uppercase;
+	height: 65px;
+}
+
+header {
+	text-align: center;
+	padding-top: 40px;
+	padding-bottom: 20px;
+	background-color: rgb(27, 27, 48);
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+@media screen and (min-width: 768px) {
+	header {
+		background-image:  url("/img/bg-large.jpg");
+		background-repeat: no-repeat no-repeat;
+		background-position: center center;
+	}
+}
+
+@media screen and (max-width: 767px) {
+	header {
+		background-image:  url("/img/bg-small.jpg");
+		background-repeat: no-repeat no-repeat;
+		background-position: center center;
+	}
+}
+
+header .row {
+	margin-bottom: 30px;
+}
+
+.button {
+	background: transparent;
+	border: 1px solid rgb(255, 255, 255);
+	border-radius: 4px;
+	height: 40px;
+	width: 150px;
+	padding: 0;
+	padding-top: 11px;
+}
+
+.button:hover {
+	background: rgba(225, 225, 225, 0.25);
+}
+
+section {
+	background: rgb(27, 27, 48);
+}
+
+section .title {
+	background: rgb(102, 0, 0);
+	height: 100px;
+	text-align: center;
+	padding-top: 22px;
+}
+
+section .title h3 {
+	font-size: 28pt
+}
+
+section .content {
+	padding-top: 20px;
+	background: rgb(245, 246, 247);
+	color: rgb(0, 0, 0);
+}
+
+section .content h4, section .content a, p.date {
+	color: rgb(168, 23, 28);
+}
+
+footer {
+	background: rgb(48, 53, 75);
+	text-align: center;
+	padding: 15px 0 20px 0;
+}
+
+.question {
+	margin-bottom: 35px;
+}
+
+#schedule .content, #sponsors-contact {
+	text-align: center;
+}
+
+#schedule p.date {
+	font-size: 16pt;
+}
+
+.event {
+	margin-bottom: 20px;
+}
+
+.event p {
+	margin: 0;
+}
+
+.event p.time {
+	font-weight: 600;
+}
+
+#sponsors-grid {
+	text-align: center;
+}
+
+.host {
+	display: inline;
+	margin-right: 20px;
+}
+
+.host:last-child {
+	margin-right: 0;
+}
+
+#host-ccs {
+	margin-top: 10px;
+}
