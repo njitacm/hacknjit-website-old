@@ -22,13 +22,13 @@
  * © 2014 MyFonts Inc
 */
 
-@import url("//hello.myfonts.net/count/2bbddd");
+@import (css) url("//hello.myfonts.net/count/2bbddd");
 
   
-@font-face {font-family: 'AvenirNextLTPro-Regular';src: url('/webfonts/2BBDDD_0_0.eot');src: url('/webfonts/2BBDDD_0_0.eot?#iefix') format('embedded-opentype'),url('/webfonts/2BBDDD_0_0.woff') format('woff'),url('/webfonts/2BBDDD_0_0.ttf') format('truetype');}
+@font-face {font-family: 'AvenirNextLTPro-Regular';src: url('../webfonts/2BBDDD_0_0.eot');src: url('../webfonts/2BBDDD_0_0.eot?#iefix') format('embedded-opentype'),url('../webfonts/2BBDDD_0_0.woff') format('woff'),url('../webfonts/2BBDDD_0_0.ttf') format('truetype');}
  
   
-@font-face {font-family: 'AvenirNextLTPro-It';src: url('/webfonts/2BBDDD_1_0.eot');src: url('/webfonts/2BBDDD_1_0.eot?#iefix') format('embedded-opentype'),url('/webfonts/2BBDDD_1_0.woff') format('woff'),url('/webfonts/2BBDDD_1_0.ttf') format('truetype');}
+@font-face {font-family: 'AvenirNextLTPro-It';src: url('../webfonts/2BBDDD_1_0.eot');src: url('../webfonts/2BBDDD_1_0.eot?#iefix') format('embedded-opentype'),url('../webfonts/2BBDDD_1_0.woff') format('woff'),url('../webfonts/2BBDDD_1_0.ttf') format('truetype');}
 
 body, h1, h2, h3, h4, h5, h6, a.button {
 	color: rgb(255, 255, 255);
@@ -89,7 +89,7 @@ header {
 
 @media screen and (min-width: 768px) {
 	header {
-		background-image:  url("/img/bg-large.jpg");
+		background-image:  url("../img/bg-large.jpg");
 		background-repeat: no-repeat no-repeat;
 		background-position: center center;
 	}
@@ -97,7 +97,7 @@ header {
 
 @media screen and (max-width: 767px) {
 	header {
-		background-image:  url("/img/bg-small.jpg");
+		background-image:  url("../img/bg-small.jpg");
 		background-repeat: no-repeat no-repeat;
 		background-position: center center;
 	}
