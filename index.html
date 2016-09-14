@@ -9,6 +9,7 @@
 
 		<link rel="stylesheet" href="css/normalize.min.css">
 		<link rel="stylesheet" href="css/foundation.min.css">
+		<link rel="stylesheet" href="css/slick.css">
 		<link rel="stylesheet" href="css/style.min.css">
 
 	</head>
@@ -22,20 +23,22 @@
 			</div>
 
 			<div class="row" id="info">
-				<h3>November 2016</h3>
+				<h3>November 5th-6th, 2016</h3>
 				<h3>Newark, NJ @ NJIT</h3>
 			</div>
-
+				<a href="https://my.mlh.io/oauth/authorize?client_id=db5edcd87c031832a707f949e7d8740b9e0c71959344ea7dee6078cb388b0f20&redirect_uri=http://hacknjit.org/dashboard/&response_type=token">
+					<button type="button" id="signupbutton" class="button alert">Register Now!</button>
+				</a>
 			<div>
 				<h3>Join us for our Third Annual Hackathon!</h3>
-				<h3>More Information (and a revamped website) Coming Soon.</h3>
+				<h3>Bigger, better, and more code than ever.</h3>
 			</div>
 		</header>
 		<section id="faq">
 			<div class="title">
 				<div class="row">
 					<div class="columns small-centered">
-						<h3>Newsletter</h3>
+						<h3>Sponsors</h3>
 					</div>
 				</div>
 			</div>
@@ -43,17 +46,42 @@
 				<div class="row">
 					<div class="columns small-centered">
 						<div class="question">
-							<h4 style="text-align:center">Want to be the first to hear about our next hackathon? Sign up for our newsletter!</h4>
-							<form id="signupform">
-								<div style="text-align:center">
-								<br>
-								<label style="font-size:24px">Email: <input id="email" placeholder="example@email.com" type="email"/></label>
-								<br>
-								<br>
-								<button type="button" id="signupbutton" onclick="signup()" class="button alert round">Sign Up!</button>
-								<h4 id="infotext" style="text-align:center;display:none"></h4>
-								</div>
-							</form>
+							<h4 style="text-align:center">HackNJIT is proud to be sponsored by the following companies:</h4>
+							<h4 style="text-align:center">(More Coming Soon!)</h4>
+							<br>
+							<a href="https://mlh.io/" target="_blank">
+								<img style="width:260px;height:150px" src="img/mlh-logo-color.png" alt="MLH">
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="title">
+				<div class="row">
+					<div class="columns small-centered">
+						<h3>FAQ</h3>
+					</div>
+				</div>
+			</div>
+			<div class="content">
+				<div class="row">
+					<div class="columns small-centered">
+						<div class="question">
+							<h4>What’s HackNJIT?</h4>
+							<p>HackNJIT is open to all students, of both NJIT and any other school! We welcome high school and college students, both graduate and undergraduate, of all skill levels and talents. Unfortunately, if you are not a student, you will not be permitted to attend.</p>
+							<h4>I’m new to hackathons, what should I do?</h4>
+							<p>Welcome to the world of organized hacking! We’re happy to have you at hackNJIT. We will have events and workshops throughout the hackathon, as well as mentors to guide you along the way.</p>
+							<h4>How much does it cost to attend?</h4>
+							<p>Nothing! This event is completely free! Meals, snacks, and beverages will be provided, all you need to do is show up!</p>
+							<h4>What should I bring?</h4>
+							<p>This is a hackathon, so we suggest you bring a laptop, a monitor, any hardware needed (some devices may be provided at request), a student ID, toiletries, spare clothes, and most importantly, your creativity!</p>
+							<h4>What should I NOT bring?</h4>
+							<p>Please do not bring any form of weaponry (guns, blades, pointy stuff, etc.), illegal drugs, alcohol, or animals.</p>
+							<h4>What is the goal of this hackathon?</h4>
+							<p>While a competition, the goal of hackNJIT is to allow visionaries of the world to test their mettle at projects, but especially to have fun! </p>
+							<h4>How do I form/join a team and why?</h4>
+							<p>At the beginning of the hackathon, socialize with your fellow hackers, or group up with other individuals in a hacking category you’re interested in! We will have a Slack channel running, so you can easily communicate with other hackers and team up. 
+You are more than welcome to work on your own, you do not need a team to compete.</p>
 						</div>
 					</div>
 				</div>
@@ -68,17 +96,22 @@
 					<div class="row">
 						<div class="columns">
 							<div class="host" id="host-acm">
-								<img src="img/acm-logo.png">
+								<a href="http://njit.acm.org/" target="_blank">
+									<img src="img/acm-logo.png">
+								</a>
 							</div>
 							<div class="host" id="host-ccs">
-								<img src="img/ccs-logo.png">
+								<a href="http://ccs.njit.edu/" target="_blank">
+									<img src="img/ccs-logo.png">
+								</a>
 							</div>
 						</div>
 					</div>
 				</div>
 			</div>
 		</footer>
-		<script src="js/vendor/modernizr.js"></script>
+		<script src="js/slick.min.js"></script>
 		<script src="js/email.min.js"></script>
+		<a id="mlh-trust-badge" style="display:block;max-width:100px;min-width:60px;position:fixed;right:50px;top:0;width:10%;z-index:10000" href="https://mlh.io/seasons/na-2017/events?utm_source=na-2017&utm_medium=TrustBadge&utm_campaign=na-2017&utm_content=white" target="_blank"><img src="https://s3.amazonaws.com/logged-assets/trust-badge/2017/white.svg" alt="Major League Hacking 2017 Hackathon Season" style="width:100%"></a>
 	</body>
 </html>
